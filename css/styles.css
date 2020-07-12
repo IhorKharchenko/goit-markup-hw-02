@@ -47,3 +47,20 @@ body {
 .features .title {
 	color: var(--title-text-color);
 }
+.team .title {
+	color: var(--title-text-color);
+}
+.footer {
+	color: #ffffff;
+	background-color: #2f303a;
+}
+.footer .logo {
+	color: #ffffff;
+}
+.address .link {
+	color: rgb(255, 255, 255, 0.6);
+}
+.address .link:hover,
+.address .link:focus {
+	color: var(--accent-color);
+}
