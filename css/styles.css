@@ -1,6 +1,49 @@
-.link:hover {
+/* основной цвет текста #757575; */
+/* вторичный цвет текста #212121 */
+/* Основной белый цвет #FFFFFF */
+/* Вспомагательный белый rgba(255, 255, 255, 0.6) */
+/* акцент #2196F3; */
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196f3;
+}
+body {
+	color: var(--primary-text-color);
+}
+.logo-text {
+	color: var(--accent-color);
+}
+.logo {
+	color: #000000;
+}
+
+/* утилита точек */
+.list {
+	list-style: none;
+}
+/* утилита линков */
+.link {
+	text-decoration-line: none;
+}
+.site-nav .link {
+	color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-color);
+}
+.contact-nav .link {
+	color: var(--primary-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
 	color: #2196f3;
 }
-.link:focus {
-	color: #2196f3;
+.section-title {
+	color: var(--title-text-color);
+}
+
+.features .title {
+	color: var(--title-text-color);
 }
