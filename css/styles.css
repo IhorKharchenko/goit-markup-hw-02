@@ -3,6 +3,7 @@
 /* Основной белый цвет #FFFFFF */
 /* Вспомагательный белый rgba(255, 255, 255, 0.6) */
 /* акцент #2196F3; */
+/* Основной фон кнопки  #F5F4FA; */
 :root {
 	--primary-text-color: #757575;
 	--title-text-color: #212121;
@@ -10,9 +11,11 @@
 	--primary-white-color: #ffffff;
 	--additional-white-color: rgba(255, 255, 255, 0.6);
 	--footer-background-color: #2f303a;
+	--button-bg-color: #f5f4fa;
 }
 body {
 	color: var(--primary-text-color);
+	font-family: Roboto, sans-serif;
 }
 
 /* утилита точек */
@@ -33,6 +36,7 @@ body {
 }
 .logo {
 	color: #000000;
+	font-family: Raleway, sans-serif;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -47,6 +51,11 @@ body {
 .contact-nav .link:hover,
 .contact-nav .link:focus {
 	color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+	color: var(--primary-white-color);
 }
 
 /* section */
@@ -103,5 +112,22 @@ button.secondary:hover {
 	background-color: var(--accent-color);
 }
 .social img:hover {
+	background-color: var(--accent-color);
+}
+
+/* PORTFOLIO PAGE */
+.btn {
+	color: var(--title-text-color);
+	background-color: var(--button-bg-color);
+}
+
+.filter button {
+	color: var(--title-text-color);
+	background-color: var(--button-bg-color);
+}
+
+.filter button:hover,
+.filter button:focus {
+	color: var(--primary-white-color);
 	background-color: var(--accent-color);
 }
