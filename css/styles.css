@@ -74,7 +74,8 @@ header .list {
 	text-align: center;
 	letter-spacing: 0.06em;
 }
-.hero .button {
+.hero .button,
+.footer .button {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -88,7 +89,6 @@ header .list {
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
-	letter-spacing: 0.03em;
 }
 
 /* features */
@@ -104,9 +104,27 @@ header .list {
 	line-height: 1.71;
 }
 
+/* Чем мы занимаемся */
+.development .title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-align: center;
+}
+
 /* team */
 .team .title {
 	color: var(--title-text-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+.team p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
 }
 
 /* footer */
@@ -123,6 +141,23 @@ header .list {
 .address .link:hover,
 .address .link:focus {
 	color: var(--accent-color);
+}
+.address p {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+}
+.address .link {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+}
+.footer .title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.43;
 }
 
 /* button */
@@ -160,10 +195,31 @@ button.secondary:hover {
 .filter button {
 	color: var(--title-text-color);
 	background-color: var(--button-bg-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1, 63;
+	text-align: center;
 }
 
 .filter button:hover,
 .filter button:focus {
 	color: var(--primary-white-color);
 	background-color: var(--accent-color);
+}
+
+.portfolio .title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+.portfolio .text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.87;
+}
+.portfolio .description {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.56;
 }
