@@ -14,8 +14,10 @@
 	--button-bg-color: #f5f4fa;
 }
 body {
+	background-color: var(--primary-white-color);
 	color: var(--primary-text-color);
 	font-family: Roboto, sans-serif;
+	letter-spacing: 0.03em;
 }
 
 /* утилита точек */
@@ -31,12 +33,22 @@ body {
 }
 
 /* header */
+header .list {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
 .logo-text {
 	color: var(--accent-color);
 }
 .logo {
 	color: #000000;
 	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -54,18 +66,42 @@ body {
 }
 
 /* hero */
-.hero-title {
+.hero .title {
 	color: var(--primary-white-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+.hero .button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
 }
 
 /* section */
 .section-title {
 	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 
 /* features */
 .features .title {
 	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+}
+.features p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
 }
 
 /* team */
